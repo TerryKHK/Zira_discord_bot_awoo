@@ -13,7 +13,7 @@
         "Emoji desconocido en ",
         " par."
     ],
-    "premium": "Esta función es solo para [donadores](https://zira.pw/premium).",
+    "premium": "Esta función es solo para [donadores]().",
     "noChannel": [
         "Por favor, primero establece un canal con **",
         "canal**."
@@ -33,16 +33,16 @@
             "add": "añadir un rol con un emoji\n",
             "toggle": "añadir un rol que pueda activarse/desactivarse\n",
             "delete": "eliminar un rol que ha sido establecido\n",
-            "edit": "editar un mensaje enviado por Zira\n",
+            "edit": "editar un mensaje enviado por RoleBot\n",
             "list": "listar los roles que se usan\n",
             "autorole": "dar un rol a los usuarios y bots al unirse\n",
-            "log": "registrar cuando Zira entregue/quite un rol\n",
+            "log": "registrar cuando RoleBot entregue/quite un rol\n",
             "join": "enviar un mensaje cuando un usuario se una\n",
             "leave": "enviar un mensaje cuando un usuario se vaya\n",
             "lang": "establecer local\n",
             "reset": "restablecer configuración del gremio\n",
-            "info": "información sobre Zira\n",
-            "invite": "invitar a Zira\n",
+            "info": "información sobre RoleBot\n",
+            "invite": "invitar a RoleBot\n",
             "suggestion": "configurar sugerencias\n",
             "submit": "enviar una sugerencia\n",
             "approve": "aprobar una sugerencia\n",
@@ -61,7 +61,7 @@
             "misc": "Varios"
         },
         "linksTitle": "Enlaces",
-        "links": "[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Consigue Zira Premium](https://zira.pw/premium)\n[Traduce a Zira](https://translate.zira.pw)",
+        "links": "[Guía para configurar a RoleBot](https://demo.RoleBot.pw)\n[Servidor de ayuda]()",
         "news": "Noticias"
     },
     "prefix": {
@@ -110,7 +110,7 @@
         "set": [
             "\n<@&",
             "> añadido con el emoji ",
-            "\n\n**NOTA:** El rol `Zira` necesita estar por encima de los roles que has puesto, y necesita tener el permiso de `Administrar Roles` para darlos."
+            "\n\n**NOTA:** El rol `RoleBot` necesita estar por encima de los roles que has puesto, y necesita tener el permiso de `Administrar Roles` para darlos."
         ],
         "emoji": [
             "El emoji ",
@@ -125,7 +125,7 @@
         "help": "multi emoji @rol o nombre del rol, @rol o nombre del rol** ~~-~~ añade un emoji con múltiples roles al mensaje establecido",
         "set": [
             "añadido con el emoji ",
-            "\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
+            "\n\n**NOTA:** El rol `RoleBot` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ]
     },
     "remove": {
@@ -134,15 +134,15 @@
             " será removido ",
             " será añadido ",
             "con el emoji ",
-            "\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
+            "\n\n**NOTA:** El rol `RoleBot` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
-        "limit": "Has alcanzado el límite de 6 roles para el comando z/remove. Puedes conseguir roles ilimitados para este comando y z/toggle [donando](https://zira.pw/premium)"
+        "limit": "Has alcanzado el límite de 6 roles para el comando z/remove. Puedes conseguir roles ilimitados para este comando y z/toggle [donando]()"
     },
     "toggle": {
         "help": "toggle emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji al mensaje establecido",
-        "image": "https://stuff.zira.pw/files/1524932965273.gif",
-        "limit": "Has alcanzado el límite de 12 roles alternables. Puedes obtener roles alternables ilimitados [donando](https://zira.pw/premium)",
-        "before": "Añadir esos hará que alcances el límite de roles del comando z/toggle. Puedes tener roles ilimitados para este comando y el comando z/remove [donando](https://zira.pw/premium)"
+        "image": "https://stuff.RoleBot.pw/files/1524932965273.gif",
+        "limit": "Has alcanzado el límite de 12 roles alternables. Puedes obtener roles alternables ilimitados [donando]()",
+        "before": "Añadir esos hará que alcances el límite de roles del comando z/toggle. Puedes tener roles ilimitados para este comando y el comando z/remove [donando]()"
     },
     "perm": {
         "noPerm": "Tienes que ser el dueño del servidor o tener el permiso `Administrar Roles` para usar estos comandos.",
@@ -152,7 +152,7 @@
     },
     "lang": {
         "langUpdate": "Idioma actualizado.",
-        "translate": "Si quieres Zira en un idioma que todavía no está en la lista de arriba, puedes ayudar a traducir Zira en [Crowdin](https://translate.zira.pw)"
+        "translate": "Si quieres RoleBot en un idioma que todavía no está en la lista de arriba, puedes ayudar a traducir RoleBot en [Crowdin](https://translate.RoleBot.pw)"
     },
     "log": {
         "title": "Registrar Comando",
@@ -162,7 +162,7 @@
         ],
         "set": [
             "Canal de registros establecido a <#",
-            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los registros serán deshabilitados."
+            ">\n\n**NOTA:** si RoleBot no es capaz de enviar mensajes al canal, los registros serán deshabilitados."
         ],
         "stop": "Mensajes de registro ya no serán enviados.",
         "give": [
@@ -188,7 +188,7 @@
         "stop": "Los mensajes de bienvenida ya no serán enviados.",
         "setChannel": [
             "Canal establecido a <#",
-            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los mensajes de bienvenida serán deshabilitados."
+            ">\n\n**NOTA:** si RoleBot no es capaz de enviar mensajes al canal, los mensajes de bienvenida serán deshabilitados."
         ],
         "message": "join message mensaje** ~~-~~ establece el mensaje que será enviado cuando un usuario se une\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
         "setMessage": "Mensaje de bienvenida establecido a:\n"
@@ -206,7 +206,7 @@
         "stop": "Los mensajes de despedida dejarán de ser enviados.",
         "setChannel": [
             "Canal establecido a <#",
-            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los mensajes de despedida serán deshabilitados."
+            ">\n\n**NOTA:** si RoleBot no es capaz de enviar mensajes al canal, los mensajes de despedida serán deshabilitados."
         ],
         "message": "leave message [mensaje]** ~~-~~ establece el mensaje que será enviado cuando un usuario se va\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
         "setMessage": "Mensaje de despedida establecido a:\n"
@@ -221,7 +221,7 @@
         "user": "autorole user @rol o nombre del rol** ~~-~~ añade o remueve un rol a ser dado cuando un usuario se una\n\nPara remover un rol que ha sido añadido usa el comando de arriba.",
         "userAdd": [
             "Se añadió el rol <@&",
-            "> que será dado cuando un usuario se una.\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
+            "> que será dado cuando un usuario se una.\n\n**NOTA:** El rol `RoleBot` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
         "userRemove": [
             "Se removió el rol <@&",
@@ -229,7 +229,7 @@
         ],
         "botAdd": [
             "Se añadió el rol <@&",
-            "> que será dado cuando un bot sea invitado.\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
+            "> que será dado cuando un bot sea invitado.\n\n**NOTA:** El rol `RoleBot` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
         "botRemove": [
             "Se removió el rol <@&",
@@ -242,7 +242,7 @@
     },
     "reset": {
         "title": "Restablecimiento de la configuración :warning:",
-        "question": "¿Seguro que quieres restablecer la configuración del servidor?\n**TODO** lo que haya sido configurado en Zira será restablecido.\n\nEscribe `yes` para aceptar o `no` para cancelar",
+        "question": "¿Seguro que quieres restablecer la configuración del servidor?\n**TODO** lo que haya sido configurado en RoleBot será restablecido.\n\nEscribe `yes` para aceptar o `no` para cancelar",
         "yes": "La configuración del servidor ha sido restablecida.",
         "no": "Nada ha sido restablecido.",
         "perm": "Solo el dueño del servidor puede restablecer la configuración."
@@ -251,17 +251,17 @@
         "top": "Canal ~~-~~ ID del Mensaje ~~-~~ Tipo ~~-~~ Emoji ~~-~~ Rol\n",
         "title": " Lista de Roles",
         "cont": "Lista Continuada",
-        "null": "Si la ID de un mensaje es nula, reinicia tu configuración y lee los roles, o únete al [servidor de soporte](https://zira.pw/support).",
+        "null": "Si la ID de un mensaje es nula, reinicia tu configuración y lee los roles, o únete al [servidor de soporte]().",
         "noTitle": "OwO",
         "noDesc": "What's this?"
     },
     "delete": {
         "help": [
-            "delete [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @rol o nombre del rol** ~~-~~ remueve un rol establecido por Zira\n¿Borraste un rol pero olvidaste removerlo primero?\nUsa **",
+            "delete [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @rol o nombre del rol** ~~-~~ remueve un rol establecido por RoleBot\n¿Borraste un rol pero olvidaste removerlo primero?\nUsa **",
             "delete [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nPara conseguir el ID del mensaje en el que está un rol, usa **",
             "lista**."
         ],
-        "setup": "No se pudo remover el rol ya que no ha sido configurado por Zira o no está en el mensaje especificado.",
+        "setup": "No se pudo remover el rol ya que no ha sido configurado por RoleBot o no está en el mensaje especificado.",
         "removed": [
             "\n<@&",
             "> removido con el emoji "
@@ -275,14 +275,14 @@
         "checkGood": "Todos los roles existen, ninguno fue removido."
     },
     "edit": {
-        "help": "edit [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) nuevo mensaje** ~~-~~ edita un mensaje enviado por Zira",
+        "help": "edit [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) nuevo mensaje** ~~-~~ edita un mensaje enviado por RoleBot",
         "read": [
             "No se pudo conseguir el mensaje en <#",
             "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
         "unknownGet": "No se pudo conseguir el mensaje en <#",
         "unknownEdit": "No se pudo editar el mensaje.",
-        "no": "El mensaje no puede ser editado por Zira porque no fue enviado por ella.",
+        "no": "El mensaje no puede ser editado por RoleBot porque no fue enviado por ella.",
         "edited": "El mensaje ha sido editado."
     },
     "suggestion": {
@@ -301,7 +301,7 @@
             ],
             "set": [
                 "Canal de sugerencias establecido a <#",
-                ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, las sugerencias serán deshabilitadas."
+                ">\n\n**NOTA:** si RoleBot no es capaz de enviar mensajes al canal, las sugerencias serán deshabilitadas."
             ]
         },
         "submit": {
@@ -340,9 +340,9 @@
         "trello": {
             "help": [
                 "suggestion trello ID del tablero** ~~-~~ envía las sugerencias a una lista en Trello\n\n**",
-                "suggestion trello disable** para deshabilitar Trello\n\nNecesitarás añadir al usuario `ZiraDiscord` al tablero que desees usar."
+                "suggestion trello disable** para deshabilitar Trello\n\nNecesitarás añadir al usuario `RoleBot` al tablero que desees usar."
             ],
-            "unknown": "Tablero desconocido. Por favor añade al usuario `ZiraDiscord` al tablero e intenta de nuevo.",
+            "unknown": "Tablero desconocido. Por favor añade al usuario `RoleBot` al tablero e intenta de nuevo.",
             "noLists": "No hay listas en el tablero. Por favor añade una lista e intenta de nuevo.",
             "title": "Verificar tablero",
             "verify": "Para verificar este tablero por favor crea una tarjeta que tenga el ID que se te envió como título. Una vez que termines escribe `done`.\n\nTienes 2 minutos para hacer esto.",
@@ -358,7 +358,7 @@
         },
         "stop": "Las sugerencias fueron deshabilitadas.",
         "disable": "Las sugerencias están deshabilitadas.",
-        "notSetup": "Ese mensaje no es una sugerencia enviada por Zira.",
+        "notSetup": "Ese mensaje no es una sugerencia enviada por RoleBot.",
         "reason": "Razón dada por ",
         "useChannel": [
             "Usa el canal <#",

@@ -1,2 +1,2 @@
 # Translations
-Language files for Zira
+Language files for RoleBot

@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "Zira",
+    "name": "RoleBot",
     "script": "./Cluster.js",
     "exec_interpreter": "node",
     "env": {

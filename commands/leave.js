@@ -88,7 +88,7 @@ exports.Run = async function Run(caller, command, GUILD) {
       caller.utils.message(command.msg.channel.id, {
         embed: {
           title: lang.leave.title,
-          description: `**${command.prefix}${lang.leave.help[0]}${command.prefix}${lang.leave.help[1]}\n\n[${lang.guide}](https://zira.pw/guide/leave)`,
+          description: `**${command.prefix}${lang.leave.help[0]}${command.prefix}${lang.leave.help[1]}`,
           color: caller.color.blue,
         },
       });

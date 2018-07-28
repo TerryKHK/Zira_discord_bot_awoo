@@ -9,7 +9,7 @@ const DB = require('./src/DB.js');
 const Utils = require('./src/Utils.js');
 const IPC = require('./src/IPC.js');
 
-class Zira {
+class RoleBot {
   constructor({
     firstShardID,
     lastShardID,
@@ -47,7 +47,7 @@ class Zira {
     this.bot.on('ready', () => {
       this.Logger.Success(this.bot.user.username, 'Cluster Ready', `Cluster ${this.id}`);
       this.bot.editStatus({
-        name: `${process.env.PREFIX}help | zira.pw`,
+        name: `${process.env.PREFIX}help`,
         type: 0,
       });
       setInterval(this.utils.postStats, 5000, this);
@@ -219,4 +219,4 @@ class Zira {
   }
 }
 
-module.exports = Zira;
+module.exports = RoleBot;

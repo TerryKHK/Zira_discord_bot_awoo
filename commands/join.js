@@ -88,7 +88,7 @@ exports.Run = async function Run(caller, command, GUILD) {
       caller.utils.message(command.msg.channel.id, {
         embed: {
           title: lang.join.title,
-          description: `**${command.prefix}${lang.join.help[0]}${command.prefix}${lang.join.help[1]}\n\n[${lang.guide}](https://zira.pw/guide/join)`,
+          description: `**${command.prefix}${lang.join.help[0]}${command.prefix}${lang.join.help[1]}`,
           color: caller.color.blue,
         },
       });

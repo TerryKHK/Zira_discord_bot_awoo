@@ -9,11 +9,11 @@
 1. Clone this repo
 
     ```
-    git clone https://github.com/ZiraDiscord/Zira.git
+    git clone https://github.com/TobiTenno/Zira.git
     ```
 2. Run `npm i -g pm2` to install [PM2](http://pm2.keymetrics.io/)
 
-3. Run `npm i` to install dependencies 
+3. Run `npm i` to install dependencies
 
 4. Copy `pm2.example.json` to `pm2.json` and fill in the env variables
 
