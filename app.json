@@ -1,6 +1,6 @@
 {
   "name": "Rolebot",
-  "description": "Originally crafted by Hazed SPaCEx, this fork of Zira allows easy deployment for your own copy of a bot to assign and remove roles as needed.",
+  "description": "Originally crafted by Hazed SPaCEx, this fork of Zira creates a copy of a bot to assign and remove roles as needed.",
   "keywords": [
     "discordapp",
     "bots",
