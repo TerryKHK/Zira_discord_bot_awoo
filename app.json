@@ -19,7 +19,7 @@
     "PREFIX": {
       "description": "Your desired prefix here.",
       "required": true,
-      "default": "z/"
+      "value": "z/"
     },
     "OWNER": {
       "description": "Your User ID here.",
