@@ -1,0 +1,70 @@
+{
+  "name": "Rolebot",
+  "description": "Originally crafted by Hazed SPaCEx, this fork of Zira allows easy deployment for your own copy of a bot to assign and remove roles as needed.",
+  "keywords": [
+    "discordapp",
+    "bots",
+    "roles",
+    "reactions"
+  ],
+  "repository": "https://github.com/tobitenno/zira",
+  "website": "https://github.com/TobiTenno/zira/blob/master/README.md",
+  "scripts": {
+  },
+  "env": {
+    "TOKEN": {
+      "description": "Your discord bot's token.",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Your desired prefix here.",
+      "required": true,
+      "default": "z/"
+    },
+    "OWNER": {
+      "description": "Your User ID here.",
+      "required": true
+    },
+    "WEBHOOK_ID": {
+      "description": "Webhook ID for logs on guild logging when the bot is joined to one.",
+      "required": true
+    },
+    "WEBHOOK_TOKEN": {
+      "description": "Webhook token for logs on guild logging when the bot is joined to one.",
+      "required": true
+    },
+    "TRELLO_KEY":{
+      "description": "Trello API key for suggest functionality.",
+      "required": true
+    },
+    "TRELLO_TOKEN": {
+      "description": "Trello API token for suggest functionality.",
+      "required": true
+    },
+    "SHARDS": {
+      "description": "Number of shards to start.",
+      "required": true,
+      "value": "1"
+    },
+    "CLUSTERS": {
+      "description": "Number of clusters to start.",
+      "required": true,
+      "value": "1"
+    } 
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [{
+      "plan": "mongolab:shared-single-small",
+      "as": "MONGO"
+  }],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
