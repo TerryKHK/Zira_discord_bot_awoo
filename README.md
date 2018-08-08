@@ -20,3 +20,10 @@
 5. Run `git submodule init` and `git submodule update` to get the language files
 
 6. Start the bot with `pm2 start pm2.json`
+
+
+## Deploy your own!
+
+You can deploy your own copy of Zira on heroku here:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tobitenno/zira)
