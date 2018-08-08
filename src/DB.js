@@ -3,11 +3,13 @@
 const mongo = require('mongodb').MongoClient;
 const log = require('disnode-logger');
 
+const mongoConnUri = process.env.MONGODB_URI || `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}`;
+
 this.db = null;
 module.exports.Connect = async () => {
   const self = this;
   return new Promise((resolve) => {
-    mongo.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}`).then((db) => {
+    mongo.connect(mongoConnUri).then((db) => {
       if (self.int != null) {
         clearInterval(self.int);
         self.int = null;
