@@ -3,7 +3,7 @@
 const mongo = require('mongodb').MongoClient;
 const log = require('disnode-logger');
 
-const mongoConnUri = process.env.MONGODB_URI || `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}`;
+const mongoConnUri = process.env.MONGODB_URI || process.env.MONGO_URI || `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}`;
 
 this.db = null;
 module.exports.Connect = async () => {
